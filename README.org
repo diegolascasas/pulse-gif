@@ -1,4 +1,4 @@
 * Pulse-gif
 Create text pulsating in a specified frequency.
 
-Inspired in a [http://xkcd.com/1331/][XKCD comic].
+Inspired in a [[http://xkcd.com/1331/][XKCD comic]].
