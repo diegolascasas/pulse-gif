@@ -8,18 +8,14 @@ Usage:
  pulse-gif.py [-h] [--frequency F] [--output FILENAME] Text [Text ...]
  #+END_SRC
 
-positional arguments:
-- Text :: The text you want printed in the gif image.
-
-optional arguments:
+Arguments:
+- Text :: The text you want printed in the gif image. No need for quotes.
 - -h, --help          :: show this help message and exit
 - --frequency F, -f F :: Frequency (per second) of the pulse. Default: 0.25.
-- --output FILENAME, -o FILENAME ::
-       Filename of the resulting gif. If the .gif sufix is
-       not present it is added automaticaly. Default: pulse.gif)
+- --output FILENAME, -o FILENAME :: Filename of the resulting gif. If the .gif sufix is not present it is added automaticaly. Default: pulse.gif)
 
 Dependencies:
-- ImageMagick
-- Python Image Library (PIL)
+- [[http://imagemagick.org/][ImageMagick]]
+- Python Image Library (I'm using [[https://pypi.python.org/pypi/Pillow/2.0.0][Pillow]])
 
 
