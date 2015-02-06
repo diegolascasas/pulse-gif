@@ -2,3 +2,24 @@
 Create text pulsating in a specified frequency.
 
 Inspired in a [[http://xkcd.com/1331/][XKCD comic]].
+
+Usage:
+#+BEGIN_SRC bash
+ pulse-gif.py [-h] [--frequency F] [--output FILENAME] Text [Text ...]
+ #+END_SRC
+
+positional arguments:
+- Text :: The text you want printed in the gif image.
+
+optional arguments:
+- -h, --help          :: show this help message and exit
+- --frequency F, -f F :: Frequency (per second) of the pulse. Default: 0.25.
+- --output FILENAME, -o FILENAME ::
+       Filename of the resulting gif. If the .gif sufix is
+       not present it is added automaticaly. Default: pulse.gif)
+
+Dependencies:
+- ImageMagick
+- Python Image Library (PIL)
+
+
